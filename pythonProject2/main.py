@@ -7,7 +7,7 @@ from config import GAME_CHOICES, RULES, scoreboard
 
 def get_user_choice():
     """
-    get and validate player input, recursively
+    ....get and validate player input, recursively
     """
     user_input = input('Enter your choice please (r, p, s): ')
     if user_input not in GAME_CHOICES:
